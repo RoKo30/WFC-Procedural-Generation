@@ -21,7 +21,7 @@ If it gets stuck, meaning some cell ends up with no options left (a “contradic
 
 Finally, it draws the result. Each cell’s pattern is painted into a texture, which is shown on a sprite in the scene. When animating, cells that aren’t decided yet show a blurry average of what they could still become, and they sharpen as the picture fills in.
 
-Now the options you can change in the inspector
+## Editor Parameters 
 Kernel Size (2 to 16) is the size of the squares
 Overlap (1 to N−1) is how many columns or rows two neighbours must share.
 Symmetry (1 to 8) adds rotated and mirrored copies
