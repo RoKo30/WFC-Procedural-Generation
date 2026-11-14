@@ -22,24 +22,25 @@ If it gets stuck, meaning some cell ends up with no options left (a “contradic
 Finally, it draws the result. Each cell’s pattern is painted into a texture, which is shown on a sprite in the scene. When animating, cells that aren’t decided yet show a blurry average of what they could still become, and they sharpen as the picture fills in.
 
 ## Editor Parameters 
-Kernel Size (2 to 16) is the size of the squares
-Overlap (1 to N−1) is how many columns or rows two neighbours must share.
-Symmetry (1 to 8) adds rotated and mirrored copies
-Periodic Input treats the input as tileable, so patterns can wrap around its edges 
-Duplicates decides how repeated patterns are weighted: WeightByFrequency makes common patterns show up more often, while Uniform makes all patterns equally likely
+- Kernel Size (2 to 16) is the size of the squares
+- Overlap (1 to N−1) is how many columns or rows two neighbours must share.
+- Symmetry (1 to 8) adds rotated and mirrored copies
+- Periodic Input treats the input as tileable, so patterns can wrap around its edges 
+- Duplicates decides how repeated patterns are weighted: WeightByFrequency makes common patterns show up more often, while Uniform makes all patterns equally likely
 
-Output Width and Output Height set the size of the generated image in pixels
-Periodic Output makes the result tile seamlessly
+- Output Width and Output Height set the size of the generated image in pixels
+- Periodic Output makes the result tile seamlessly
 
-Heuristic is the order the picture gets built in. MinimumEntropy always fills the most constrained cell first
-BreadthFirst grows outward from the start in rings
-DepthFirst snakes away along a path and then fills in the gaps
-Seed controls the randomness, so the same seed gives the same picture every time
-Randomize Seed picks a new seed on each run
-Max Attempts is how many times it may restart before giving up
+- Heuristic is the order the picture gets built in
+- MinimumEntropy always fills the most constrained cell first
+- BreadthFirst grows outward from the start in rings
+- DepthFirst snakes away along a path and then fills in the gaps
+- Seed controls the randomness, so the same seed gives the same picture every time
+- Randomize Seed picks a new seed on each run
+- Max Attempts is how many times it may restart before giving up
 
-Pixels Per Unit controls how big the result appears in the scene
-Show Superposition turns the blurry “still deciding” preview on or off while animating
-Undecided Color is the colour of empty cells when that preview is off
-Generate On Start makes it generate automatically when you press Play
-Animate lets you watch it build step by step, and Steps Per Frame controls how fast that goes
+- Pixels Per Unit controls how big the result appears in the scene
+- Show Superposition turns the blurry “still deciding” preview on or off while animating
+- Undecided Color is the colour of empty cells when that preview is off
+- Generate On Start makes it generate automatically when you press Play
+- Animate lets you watch it build step by step, and Steps Per Frame controls how fast that goes
