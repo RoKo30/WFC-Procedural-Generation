@@ -1,0 +1,19 @@
+{
+    "name": "ProceduralGen.Wfc.Editor",
+    "rootNamespace": "ProceduralGen.Wfc.Editor",
+    "references": [
+        "ProceduralGen.Wfc.Core",
+        "ProceduralGen.Wfc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
