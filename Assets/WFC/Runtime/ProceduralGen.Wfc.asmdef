@@ -1,0 +1,16 @@
+{
+    "name": "ProceduralGen.Wfc",
+    "rootNamespace": "ProceduralGen.Wfc",
+    "references": [
+        "ProceduralGen.Wfc.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
